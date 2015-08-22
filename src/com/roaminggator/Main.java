@@ -51,11 +51,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        OutputBehavior outputBehavior = new OutputToConsole();
         OutputController outputController = OutputController.getInstance();
-        outputController.setOutputBehavior(outputBehavior);
-        outputController.getOutputBehavior().println(1234);
-        System.out.println(outputController.getOutputBehavior().getLastOutput());
+        outputController.setOutputBehavior(new OutputToConsole());
         testChapter1();
         testChapter2();
     }

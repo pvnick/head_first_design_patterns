@@ -73,15 +73,18 @@ public class WeatherDataTest {
         FakeDisplayElement fakeDisplayElement = new FakeDisplayElement();
         WeatherData weatherData = new WeatherData();
         weatherData.registerObserver(fakeDisplayElement);
+        displayElementUpdateCallCount = 0;
         weatherData.setTemperature(1.1f);
         weatherData.setPressure(2.2f);
         weatherData.setHumidity(3.3f);
         weatherData.measurementsChanged();
+        assertEquals(displayElementUpdateCallCount, 1);
         weatherData.removeObserver(fakeDisplayElement);
         weatherData.setTemperature(4.4f);
         weatherData.setPressure(5.5f);
         weatherData.setHumidity(6.6f);
         weatherData.measurementsChanged();
+        assertEquals(displayElementUpdateCallCount, 1);
         assertEquals(fakeDisplayElement.getTemperature(), 1.1f, 1e-15);
         assertEquals(fakeDisplayElement.getPressure(), 2.2f, 1e-15);
         assertEquals(fakeDisplayElement.getHumidity(), 3.3f, 1e-15);

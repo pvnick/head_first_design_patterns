@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55b560ba-6e52-4be4-9a37-2fffc964ec91" name="Default" comment="implemented output controller test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/DuckTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputControllerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherDataTest.java" />
-      <change type="DELETED" beforePath="C:\Users\pvnic_000\IdeaProjects\Design Patterns\src\com\roaminggator\designpatterns\chapter2\UnitTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/Duck.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/Duck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/Main.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/Duck.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/Duck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/FakeOutput.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/FakeOutput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputController.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" />
+    <list default="true" id="55b560ba-6e52-4be4-9a37-2fffc964ec91" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/Main.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherDataTest.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherDataTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Design Patterns.iws" />
@@ -30,9 +19,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Design Patterns$com_roaminggator_in_Design_Patterns.coverage" NAME="com.roaminggator in Design Patterns Coverage Results" MODIFIED="1440266623339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Design Patterns$com_roaminggator_in_Design_Patterns.coverage" NAME="com.roaminggator in Design Patterns Coverage Results" MODIFIED="1440270478062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.roaminggator.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Design Patterns$All_in_Design_Patterns.coverage" NAME="All in Design Patterns Coverage Results" MODIFIED="1440270467224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Design Patterns$com_roaminggator_designpatterns_in_Design_Patterns.coverage" NAME="com.roaminggator.designpatterns in Design Patterns Coverage Results" MODIFIED="1440266454628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.roaminggator.designpatterns.*</FILTER>
     </SUITE>
@@ -49,13 +39,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlyNoWay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.6314655" vertical-offset="895" max-vertical-offset="1430">
+              <caret line="54" column="66" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#819#843#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherDataTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeatherDataTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57327586" vertical-offset="1626" max-vertical-offset="2090">
-              <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1651" max-vertical-offset="2156">
+              <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#506#507#0" expanded="true" />
@@ -194,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/Main.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWayTest.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" />
@@ -206,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/DuckTest.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherDataTest.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/Main.java" />
       </list>
     </option>
   </component>
@@ -379,6 +370,29 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.roaminggator.designpatterns" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in Design Patterns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Design Patterns" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
@@ -679,17 +693,19 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.com.roaminggator in Design Patterns" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.com.roaminggator.designpatterns.chapter2 in Design Patterns" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.com.roaminggator.designpatterns in Design Patterns" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Design Patterns" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.com.roaminggator.designpatterns in Design Patterns" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.com.roaminggator.designpatterns.chapter2 in Design Patterns" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Design Patterns" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.com.roaminggator.designpatterns in Design Patterns" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.com.roaminggator.designpatterns.chapter2 in Design Patterns" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -704,7 +720,7 @@
       <option name="number" value="Default" />
       <updated>1439922230389</updated>
       <workItem from="1439922235393" duration="1963000" />
-      <workItem from="1440254466528" duration="12159000" />
+      <workItem from="1440254466528" duration="12919000" />
     </task>
     <task id="LOCAL-00001" summary="testing intellij idea vcs">
       <created>1440258171785</created>
@@ -730,11 +746,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440262416357</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="weatherData unit tests">
+      <created>1440266679408</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1440266679408</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14122000" />
+    <option name="totallyTimeSpent" value="14882000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -758,7 +780,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -775,7 +797,7 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13896848" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28366762" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28366762" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -809,7 +831,8 @@
     <MESSAGE value="observer pattern implemented, and implemented abstract output behavior" />
     <MESSAGE value="implementing test system" />
     <MESSAGE value="implemented output controller test" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented output controller test" />
+    <MESSAGE value="weatherData unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="weatherData unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -934,17 +957,6 @@
           <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="717" max-vertical-offset="1496">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#819#843#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1119,12 +1131,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57327586" vertical-offset="1626" max-vertical-offset="2090">
-          <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1651" max-vertical-offset="2156">
+          <caret line="86" column="55" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#559#560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6314655" vertical-offset="895" max-vertical-offset="1430">
+          <caret line="54" column="66" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#819#843#0" expanded="true" />
           </folding>
         </state>
       </provider>
