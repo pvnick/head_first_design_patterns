@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void testChapter2() {
-        
+
     }
 
     public static void main(String[] args) {
