@@ -1,7 +1,6 @@
 package com.roaminggator.designpatterns.chapter2;
 
 import java.util.ArrayList;
-import java.util.Observer;
 
 /**
  * Created by pvnic_000 on 8/22/2015.

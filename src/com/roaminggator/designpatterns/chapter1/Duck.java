@@ -1,5 +1,8 @@
 package com.roaminggator.designpatterns.chapter1;
 
+import com.roaminggator.designpatterns.OutputBehavior;
+import com.roaminggator.designpatterns.OutputController;
+
 /**
  * Created by pvnic_000 on 8/18/2015.
  */
@@ -11,12 +14,11 @@ public abstract class Duck {
     }
 
     public void swim() {
-        System.out.println(name + ": Splash splash");
+        OutputBehavior outputBehavior = OutputController.getInstance().getOutputBehavior();
+        outputBehavior.println(name + ": Splash splash");
     }
 
-    public void fly() {
-        flyingBehavior.fly(name);
-    }
+    public void fly() { flyingBehavior.fly(name); }
 
     public void quack() {
         quackingBehavior.quack(name);

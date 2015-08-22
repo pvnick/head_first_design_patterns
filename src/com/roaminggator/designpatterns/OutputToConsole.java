@@ -4,19 +4,19 @@ package com.roaminggator.designpatterns;
  * Created by pvnic_000 on 8/22/2015.
  */
 public class OutputToConsole implements OutputBehavior {
-    private Object lastOutput;
+    private String lastOutput;
 
     public <T> void print(T output) {
-        lastOutput = output;
-        System.out.print(output);
+        lastOutput = String.valueOf(output);
+        System.out.print(lastOutput);
     }
 
     public <T> void println(T output) {
-        lastOutput = output;
-        System.out.println(output);
+        lastOutput = String.valueOf(output);
+        System.out.println(lastOutput + "\n");
     }
 
-    public Object getLastOutput() {
+    public String getLastOutput() {
         return lastOutput;
     }
 }

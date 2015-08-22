@@ -6,5 +6,5 @@ package com.roaminggator.designpatterns;
 public interface OutputBehavior {
     public <T> void print(T output);
     public <T> void println(T output);
-    public Object getLastOutput();
+    public String getLastOutput();
 }

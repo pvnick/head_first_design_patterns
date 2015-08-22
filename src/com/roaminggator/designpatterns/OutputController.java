@@ -8,6 +8,7 @@ public class OutputController {
     public static OutputController getInstance() {
         if (instance == null) {
             instance = new OutputController();
+            instance.setOutputBehavior(new FakeOutput()); //initialize with placeholder output behavior
         }
         return instance;
     }
@@ -16,10 +17,6 @@ public class OutputController {
         this.outputBehavior = outputBehavior;
     }
     public OutputBehavior getOutputBehavior() {
-        if (this.outputBehavior == null) {
-            System.out.println("Output behavior hasn't yet been set");
-            return null;
-        }
         return this.outputBehavior;
     }
 }
