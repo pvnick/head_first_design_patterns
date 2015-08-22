@@ -52,7 +52,10 @@ public class Main {
 
     public static void main(String[] args) {
         OutputBehavior outputBehavior = new OutputToConsole();
-        OutputController.getInstance().setOutputBehavior(outputBehavior);
+        OutputController outputController = OutputController.getInstance();
+        outputController.setOutputBehavior(outputBehavior);
+        outputController.getOutputBehavior().println(1234);
+        System.out.println(outputController.getOutputBehavior().getLastOutput());
         testChapter1();
         testChapter2();
     }

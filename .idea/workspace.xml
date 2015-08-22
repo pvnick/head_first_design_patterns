@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b560ba-6e52-4be4-9a37-2fffc964ec91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/UnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/Main.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/AbstractDisplayElement.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/AbstractDisplayElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/FakeOutput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/FlyNoWay.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/FlyNoWay.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/FlyWithWings.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/FlyWithWings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/MallardDuck.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/MallardDuck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/QuackInanimate.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/QuackInanimate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/QuackLoudly.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/QuackLoudly.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/ReadheadDuck.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/ReadheadDuck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/RubberDuck.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/designpatterns/chapter1/RubberDuck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Design Patterns.iml" afterPath="$PROJECT_DIR$/Design Patterns.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/Main.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/MallardDuck.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/MallardDuck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackInanimate.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackInanimate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackLoudly.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackLoudly.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/ReadheadDuck.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/ReadheadDuck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/RubberDuck.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/RubberDuck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Design Patterns.iws" />
@@ -46,14 +41,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/roaminggator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85806453" vertical-offset="722" max-vertical-offset="1430">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="717" max-vertical-offset="1496">
+              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#819#843#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeOutput.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/FakeOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22593068" vertical-offset="0" max-vertical-offset="779">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputBehavior.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutputToConsole.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +111,6 @@
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/SubjectInterface.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/UnitTest.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputController.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java" />
@@ -92,7 +123,10 @@
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/FakeOutput.java" />
       </list>
     </option>
   </component>
@@ -209,9 +243,14 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.roaminggator.designpatterns" />
       <recent name="com.roaminggator.designpatterns.chapter2" />
       <recent name="com.roaminggator.designpatterns.chapter1" />
     </key>
@@ -507,7 +546,7 @@
       <option name="number" value="Default" />
       <updated>1439922230389</updated>
       <workItem from="1439922235393" duration="1963000" />
-      <workItem from="1440254466528" duration="6757000" />
+      <workItem from="1440254466528" duration="7909000" />
     </task>
     <task id="LOCAL-00001" summary="testing intellij idea vcs">
       <created>1440258171785</created>
@@ -521,11 +560,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440258234305</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="observer pattern implemented, and implemented abstract output behavior">
+      <created>1440261273120</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1440261273120</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8720000" />
+    <option name="totallyTimeSpent" value="9872000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -562,7 +607,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19702603" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19702603" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -596,7 +641,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="testing intellij idea vcs" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing intellij idea vcs" />
+    <MESSAGE value="observer pattern implemented, and implemented abstract output behavior" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer pattern implemented, and implemented abstract output behavior" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -674,27 +720,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,10 +898,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roaminggator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85806453" vertical-offset="722" max-vertical-offset="1430">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="717" max-vertical-offset="1496">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#819#843#0" expanded="true" />
@@ -884,5 +928,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/FakeOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22593068" vertical-offset="0" max-vertical-offset="779">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Design Patterns</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
