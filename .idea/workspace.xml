@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55b560ba-6e52-4be4-9a37-2fffc964ec91" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/UnitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/Main.class" afterPath="$PROJECT_DIR$/out/production/Design Patterns/com/roaminggator/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/AbstractDisplayElement.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/AbstractDisplayElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/Main.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/MallardDuck.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/MallardDuck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackInanimate.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackInanimate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackLoudly.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackLoudly.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/ReadheadDuck.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/ReadheadDuck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/RubberDuck.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/RubberDuck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" afterPath="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Design Patterns.iws" />
@@ -32,108 +49,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/roaminggator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5648267" vertical-offset="0" max-vertical-offset="779">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.85806453" vertical-offset="722" max-vertical-offset="1430">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#819#843#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubjectInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/SubjectInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObserverInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ObserverInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentConditionsDisplay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractDisplayElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/AbstractDisplayElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="73" />
-              <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatisticsDisplay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="924">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForecastDisplay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1694">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#1581#1582#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlyingBehavior.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyingBehavior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -148,25 +69,29 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWinds.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyingBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackingBehavior.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackLoudly.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackInanimate.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/Duck.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/MallardDuck.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/ReadheadDuck.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/RubberDuck.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ObserverInterface.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/DisplayElementInterface.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/Observer.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ConcreteObserver.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/SubjectInterface.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/SubjectInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/UnitTest.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputController.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/MallardDuck.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackInanimate.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackLoudly.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/ReadheadDuck.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/RubberDuck.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/AbstractDisplayElement.java" />
+        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java" />
-        <option value="$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/AbstractDisplayElement.java" />
         <option value="$PROJECT_DIR$/src/com/roaminggator/Main.java" />
       </list>
     </option>
@@ -582,7 +507,7 @@
       <option name="number" value="Default" />
       <updated>1439922230389</updated>
       <workItem from="1439922235393" duration="1963000" />
-      <workItem from="1440254466528" duration="3728000" />
+      <workItem from="1440254466528" duration="6757000" />
     </task>
     <task id="LOCAL-00001" summary="testing intellij idea vcs">
       <created>1440258171785</created>
@@ -590,11 +515,37 @@
       <option name="project" value="LOCAL" />
       <updated>1440258171785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testing intellij idea vcs">
+      <created>1440258234305</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1440258234305</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5691000" />
+    <option name="totallyTimeSpent" value="8720000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
@@ -602,7 +553,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -610,13 +561,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19702603" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -626,7 +578,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -662,8 +613,7 @@
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#819#843#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -705,8 +655,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -719,91 +669,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackingBehavior.java">
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/UnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13076924" vertical-offset="0" max-vertical-offset="780">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackInanimate.java">
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15256411" vertical-offset="0" max-vertical-offset="780">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputToConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java">
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/OutputController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2319688" vertical-offset="0" max-vertical-offset="513">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyingBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/Duck.java">
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyNoWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/MallardDuck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+          <caret line="17" column="58" selection-start-line="15" selection-start-column="27" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/ReadheadDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackInanimate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/RubberDuck.java">
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackingBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/QuackLoudly.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/ReadheadDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/RubberDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="968">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ObserverInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="1056">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,77 +823,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ObserverInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="1298">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/ForecastDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/StatisticsDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="924">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/CurrentConditionsDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state vertical-scroll-proportion="0.60967743" vertical-offset="106" max-vertical-offset="946">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/AbstractDisplayElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.47116968" vertical-offset="0" max-vertical-offset="607">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter2/WeatherData.java">
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/FlyWithWings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1694">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.39032257" vertical-offset="0" max-vertical-offset="620">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/roaminggator/designpatterns/chapter1/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33278418" vertical-offset="84" max-vertical-offset="704">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roaminggator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5648267" vertical-offset="0" max-vertical-offset="779">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.85806453" vertical-offset="722" max-vertical-offset="1430">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#819#843#0" expanded="true" />
           </folding>
         </state>
       </provider>

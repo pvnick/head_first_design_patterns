@@ -12,6 +12,10 @@ public class WeatherData implements SubjectInterface {
     private float pressure;
     private float humidity;
 
+    public WeatherData() {
+        observers = new ArrayList<ObserverInterface>();
+    }
+
     public void registerObserver(ObserverInterface observer) {
         if ( ! observers.contains(observer)) {
             observers.add(observer);
@@ -40,10 +44,7 @@ public class WeatherData implements SubjectInterface {
     }
 
     public void setTemperature(float temperature) {
-        if (temperature != this.temperature) {
-            this.temperature = temperature;
-            measurementsChanged();
-        }
+        this.temperature = temperature;
     }
 
     public float getPressure() {
@@ -51,10 +52,7 @@ public class WeatherData implements SubjectInterface {
     }
 
     public void setPressure(float pressure) {
-        if (pressure != this.pressure) {
-            this.pressure = pressure;
-            measurementsChanged();
-        }
+        this.pressure = pressure;
     }
 
     public float getHumidity() {
@@ -62,10 +60,6 @@ public class WeatherData implements SubjectInterface {
     }
 
     public void setHumidity(float humidity) {
-        if (humidity != this.humidity) {
-            this.humidity = humidity;
-            measurementsChanged();
-        }
+        this.humidity = humidity;
     }
-
 }

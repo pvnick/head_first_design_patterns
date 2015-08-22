@@ -1,5 +1,8 @@
 package com.roaminggator.designpatterns.chapter2;
 
+import com.roaminggator.designpatterns.OutputBehavior;
+import com.roaminggator.designpatterns.OutputController;
+
 /**
  * Created by pvnic_000 on 8/22/2015.
  */
@@ -9,11 +12,16 @@ public class CurrentConditionsDisplay extends AbstractDisplayElement {
     float humidity = 0;
     boolean receivedMeasurements = false;
 
+    public CurrentConditionsDisplay() {
+        super("Current Conditions");
+    }
+
     public void display() {
         if ( ! receivedMeasurements) {
-            noMeasurementsError();
+            insufficientMeasurementsError();
         } else {
-            System.out.print("Current Conditions: \n" +
+            OutputBehavior outputBehavior = OutputController.getInstance().getOutputBehavior();
+            outputBehavior.println("Current Conditions: \n" +
                             "\tTemperature: " + String.valueOf(temperature) + "\n" +
                             "\tPressure: " + String.valueOf(pressure) + "\n" +
                             "\tHumidity: " + String.valueOf(temperature) + "\n"

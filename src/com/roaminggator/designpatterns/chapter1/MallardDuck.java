@@ -1,5 +1,8 @@
 package com.roaminggator.designpatterns.chapter1;
 
+import com.roaminggator.designpatterns.OutputBehavior;
+import com.roaminggator.designpatterns.OutputController;
+
 /**
  * Created by pvnic_000 on 8/18/2015.
  */
@@ -11,6 +14,7 @@ public class MallardDuck extends Duck {
     }
 
     public void display() {
-        System.out.println(name + ": \"Here I am!\"");
+        OutputBehavior outputBehavior = OutputController.getInstance().getOutputBehavior();
+        outputBehavior.println(name + ": \"Here I am!\"");
     }
 }

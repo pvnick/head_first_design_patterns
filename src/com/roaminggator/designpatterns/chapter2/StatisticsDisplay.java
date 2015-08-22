@@ -1,5 +1,8 @@
 package com.roaminggator.designpatterns.chapter2;
 
+import com.roaminggator.designpatterns.OutputBehavior;
+import com.roaminggator.designpatterns.OutputController;
+
 /**
  * Created by pvnic_000 on 8/22/2015.
  */
@@ -10,13 +13,18 @@ public class StatisticsDisplay extends AbstractDisplayElement {
     float newTemperature = 0;
     float newPressure = 0;
     float newHumidity = 0;
-    boolean receivedMeasurements = false;
+    long measurementsReceived = 0;
+
+    public StatisticsDisplay() {
+        super("Statistics Display");
+    }
 
     public void display() {
-        if ( ! receivedMeasurements) {
-            noMeasurementsError();
+        if (measurementsReceived < 2) {
+            insufficientMeasurementsError();
         } else {
-            System.out.print("Condition Deltas: \n" +
+            OutputBehavior outputBehavior = OutputController.getInstance().getOutputBehavior();
+            outputBehavior.println("Condition Deltas: \n" +
                             "\tTemperature: " + String.valueOf(newTemperature - oldTemperature) + "\n" +
                             "\tPressure: " + String.valueOf(newPressure - oldPressure) + "\n" +
                             "\tHumidity: " + String.valueOf(newHumidity - oldHumidity) + "\n"
@@ -31,6 +39,6 @@ public class StatisticsDisplay extends AbstractDisplayElement {
         newPressure = pressure;
         oldHumidity = newHumidity;
         newHumidity = humidity;
-        receivedMeasurements = true;
+        ++measurementsReceived;
     }
 }
